@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 
 body::before {
     background-image: url("img/code.png");
@@ -67,4 +69,28 @@ body::before {
 
 .container__texto-azul {
     color: #1875E8;
+}
+
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 72px;
+}
+
+h2,
+p,
+button {
+    font-family: 'Inter', sans-serif;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.container__imagem-robo {
+    width: 79%;
+    height: auto;
+    position: absolute;
+    left: 12px;
+    top: -92%;
 }
