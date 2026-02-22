@@ -44,3 +44,8 @@ body::before {
     position: absolute;
     bottom: 0;
 }
+
+.container__informacoes {
+    flex: 1;
+    padding: 20px;
+}
